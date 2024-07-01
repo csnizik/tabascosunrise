@@ -1,0 +1,12 @@
+# Local development services.
+# These are overrides to the default services settings. They will be applied
+# after the settings in development.services.yml, to prevent DDEV from overwriting them.
+# Make sure that this file is added to your settings.local.php file and
+# that your settings.local.php file is listed at the end of settings.php.
+
+
+parameters:
+ twig.config:
+   debug: true
+   auto_reload: true
+   cache: false
