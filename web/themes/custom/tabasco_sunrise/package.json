@@ -1,0 +1,24 @@
+{
+  "name": "tabasco_sunrise",
+  "version": "1.0.0",
+  "description": "Custom Bootstrap Barrio subtheme",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch sass -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdbootstrap": "^4.20.0",
+    "node-sass": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "browser-sync": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.6"
+  }
+}

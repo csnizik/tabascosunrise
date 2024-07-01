@@ -7,7 +7,7 @@ base theme: bootstrap_barrio
 
 libraries:
   - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - tabasco_sunrise/global-styling
 
 regions:
   top_header: 'Top header'
